@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ProductContainer = styled.div`
-  width: 100vw;
-  background: #150f0f;
+  /* width: 100vw; */
   min-height: 100vh;
   padding: 5rem calc((100vw - 1300px) / 2);
+  background: #150f0f;
   color: #fff;
 `;
 
@@ -34,6 +34,11 @@ export const ProductHeading = styled.h1`
   margin-bottom: 5rem;
 `;
 
+export const ProductTitle = styled.h2`
+  font-weight: 400;
+  font-size: 1.5rem;
+`;
+
 export const ProductInfo = styled.div`
   display: flex;
   flex-direction: column;
@@ -41,11 +46,6 @@ export const ProductInfo = styled.div`
   align-items: center;
   padding: 2rem;
   text-align: center;
-`;
-
-export const ProductTitle = styled.h2`
-  font-weight: 400;
-  font-size: 1.5rem;
 `;
 
 export const ProductDesc = styled.p`
