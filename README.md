@@ -8,7 +8,11 @@
 
 ## Demo Website
 
+<div align="center">
+<img src="https://github.com/unriale/pizza-website/blob/main/frontend/src/images/pizza-bg.png" >
+  <br>
 👉 Demo : https://unriale.github.io/pizza-website/
+</div>
 
 ## How To Use
 
